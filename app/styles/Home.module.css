@@ -5,3 +5,75 @@
   background-size: cover;
   height: 100%;
 }
+
+.bar_animation {
+  animation-name: BarAnimation;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-timing-function: 1;
+}
+
+@keyframes BarAnimation {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.robot_animation {
+  animation-name: RobotAnimation;
+  animation-duration: 2.5s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-timing-function: 1;
+}
+
+@keyframes RobotAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.heading_animation {
+  animation-name: HeadingAnimation;
+  animation-duration: 2.5s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-timing-function: 1;
+}
+
+@keyframes HeadingAnimation {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.section_animation {
+  animation-name: SectionAnimation;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-timing-function: 1;
+}
+
+@keyframes SectionAnimation {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
